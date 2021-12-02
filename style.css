@@ -71,8 +71,9 @@ button {
     cursor: pointer;
 }
 
+.edit:hover,
 .menu__list-button:hover,
-.block-add-item__task-row-button {
+.block-add-items__task-row-button:hover {
     color: #3a3a3a;
 }
 
@@ -137,7 +138,7 @@ li {
     margin: 0 10px;
 }
 
-.menu__list > .label {
+li > p {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -160,7 +161,7 @@ li {
 
 /* Completed */
 
-#completed-tasks .label {
+#completed-tasks .task {
     text-decoration: line-through;
     color: #888;
 }
