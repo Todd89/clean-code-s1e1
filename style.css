@@ -5,6 +5,10 @@
     font-family: Lato, sans-serif;
 }
 
+.main-image {
+  margin: 0;
+}
+
 .logo {
     width: 500px;
     margin: 0 auto;
