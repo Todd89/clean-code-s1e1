@@ -169,15 +169,15 @@ li > p {
 /* Edit Task */
 
 .menu li input[type=text] {
-    display:none
+    display: none
 }
 
 .menu li.edit-mode input[type=text] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .menu li.edit-mode p {
-    display:none;
+    display: none;
 }
 
